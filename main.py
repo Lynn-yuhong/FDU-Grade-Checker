@@ -158,7 +158,7 @@ def read_snapshot(password):
             
         
 if __name__ == '__main__':
-    uid, psw, token = getenv("STD_ID"), getenv("PASSWORD"), getenv("TOKEN")
+    uid, psw, token = 24300180017, 'Lyh20060627', 'f03346e27ce247a88c75f1351ff3431f'
     assert (uid and psw and token)
     checker = GradeChecker(uid, psw)
     snapshot = checker.get_stat()
