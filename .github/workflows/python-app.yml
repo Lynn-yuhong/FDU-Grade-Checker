@@ -26,7 +26,7 @@ jobs:
       - name: Run Python script and get result
         id: run_script
         run: |
-          STD_ID=${{ 24300180017 }} PASSWORD=${{ 'Lyh0060627' }} TOKEN=${{  'f03346e27ce247a88c75f1351ff3431f' }} python3 main.py > result.txt
+          STD_ID=${{ 24300180017 }} PASSWORD=${{ Lyh0060627 }} TOKEN=${{  f03346e27ce247a88c75f1351ff3431f }} python3 main.py > result.txt
           echo "RESULT=$(cat result.txt)" >> $GITHUB_ENV
 
       - name: Conditional update
